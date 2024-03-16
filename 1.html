@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title for the website -->
+    <title>Table - 1</title>
+
+
+    <!-- styles -->
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+
+            /* gradient background color */
+            background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(183, 0, 255));
+            color: white;
+
+
+        }
+
+        /* style the container first */
+
+        .container {
+
+            height: 80%;
+            width: 80%;
+            background-image: linear-gradient(to right, #25c28f, #25bab6);
+
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 10%;
+            box-shadow: 0px 0px 1000px black;
+            overflow: auto;
+        }
+
+        /* style the header text */
+        .header-text {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            text-align: center;
+            padding-top: 5%;
+        }
+
+        /* style the table tag */
+        table {
+            height: 550px;
+            border-collapse: collapse;
+            width: 100%;
+            text-align: left;
+        }
+
+        /* style the tr tag */
+        tr {
+            border-bottom: 1px solid rgba(255, 255, 255, 30%);
+            padding-left: 5%;
+        }
+
+        /* give the background color to the header with 40% opacity */
+        .header {
+            background-color: rgba(255, 255, 255, 40%);
+        }
+
+        /* give the padding left to the th td tags */
+        th,
+        td {
+            padding-left: 5%;
+        }
+    </style>
+
+
+
+</head>
+
+
+<body>
+
+    <!-- table container -->
+
+    <div class="container">
+
+        <!-- table header text -->
+        <h1 class="header-text">FIXED TABLE HEADER</h1>
+
+        <table>
+            <!-- table headers -->
+            <tr class="header">
+                <th>COMPANY</th>
+                <th>PRICE</th>
+                <th>CHANGE</th>
+                <th>CHANGE %</th>
+            </tr>
+
+            <!-- 1 -->
+            <tr>
+                <td>AUSTRALIAN COMPANY</td>
+                <td>$1.38</td>
+                <td>+2.01</td>
+                <td>-0.36%</td>
+            </tr>
+
+
+            <!-- 2 -->
+            <tr>
+                <td>AUSENCO</td>
+                <td>$2.38</td>
+                <td>-0.01</td>
+                <td>-1.36%</td>
+            </tr>
+
+
+            <!-- 3 -->
+
+            <tr>
+                <td>ADELAIDE</td>
+                <td>$3.22</td>
+                <td>+0.01</td>
+                <td>+1.36</td>
+            </tr>
+
+            <!-- 4 -->
+            <tr>
+                <td>AUSTRALIAN COMPANY</td>
+                <td>$1.38</td>
+                <td>+2.01</td>
+                <td>-0.36%</td>
+            </tr>
+
+
+            <!-- 5 -->
+            <tr>
+                <td>AUSENCO</td>
+                <td>$2.38</td>
+                <td>-0.01</td>
+                <td>-1.36%</td>
+            </tr>
+
+
+            <!-- 6 -->
+
+            <tr>
+                <td>ADELAIDE</td>
+                <td>$3.22</td>
+                <td>+0.01</td>
+                <td>+1.36</td>
+            </tr>
+
+
+
+
+        </table>
+
+    </div>
+
+
+</body>
+
+</html>
