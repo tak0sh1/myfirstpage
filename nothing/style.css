@@ -1,0 +1,41 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.main-container{
+	display: flex;
+	width: 100%;
+}
+
+
+
+.container-1{
+	height: 200px;
+	width: 100%;
+	background-color: aqua;
+	margin: 5px;
+
+}
+
+.container-2{
+	height: 200px;
+	width: 100%;
+	background-color: aqua;
+	margin: 5px;
+
+}
+
+.container-3{
+	height: 200px;
+	width: 100%;
+	margin: 5px;
+	background-color: aqua;
+}
+
+.text{
+	font-size: 50px;
+}
+
+
